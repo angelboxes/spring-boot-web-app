@@ -3,9 +3,10 @@
     <title>Web application</title>
 </head>
 <body>
+<font color="red">${errorMessage}</font>
 <form method="post">
     Name: <input name="name" type="text">
-    Password:<input name="pasword" type="password">
+    Password:<input name="password" type="password">
     <input type="submit">
 </form>
 </body>
