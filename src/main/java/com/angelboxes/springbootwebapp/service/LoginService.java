@@ -1,8 +1,8 @@
 package com.angelboxes.springbootwebapp.service;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class LoginService {
 
     public boolean validate(String user, String password) {
